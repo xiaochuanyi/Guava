@@ -7,10 +7,10 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="module-library" exported="">
+    <orderEntry type="module-library">
       <library>
         <CLASSES>
-          <root url="jar://C:/Guava/guava-18.0.jar!/" />
+          <root url="jar://E:/文件/包/测试包/junit-4.12.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
@@ -19,7 +19,7 @@
     <orderEntry type="module-library">
       <library>
         <CLASSES>
-          <root url="jar://E:/文件/包/测试包/junit-4.12.jar!/" />
+          <root url="jar://C:/Guava/guava-18.0.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
