@@ -5,7 +5,7 @@ import org.junit.Test;
 import java.util.Arrays;
 import java.util.List;
 /**
- *测试joiner
+ *测试joiner，作用是往list集合里添加对象
  */
 public class JoinerTest {
     private List<String> list = Arrays.asList("xiao","li","liu","deng");
