@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="419cb412-ff15-4c9e-8c54-da5c6cf17dab" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/ObjectTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/StringsTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -27,16 +27,37 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ObjectTest.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ObjectTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/ObjectTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="518">
+            <state relative-caret-position="283">
               <caret line="59" column="45" lean-forward="true" selection-start-line="59" selection-start-column="45" selection-end-line="59" selection-end-column="45" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#922#923#0" expanded="true" />
                 <element signature="e#1008#1009#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="StringsTest.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/StringsTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="319">
+              <caret line="46" column="117" selection-start-line="46" selection-start-column="117" selection-end-line="46" selection-end-column="117" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CharMatcher.class" pinned="false" current-in-tab="false">
+        <entry file="jar://C:/Guava/guava-18.0.jar!/com/google/common/base/CharMatcher.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="128">
+              <caret line="18" column="33" selection-start-line="18" selection-start-column="22" selection-end-line="18" selection-end-column="33" />
             </state>
           </provider>
         </entry>
@@ -68,6 +89,11 @@
       </list>
     </option>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>break</find>
+    </findStrings>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -80,6 +106,7 @@
         <option value="$PROJECT_DIR$/src/test/SplitterTest.java" />
         <option value="$PROJECT_DIR$/src/test/PreconditionsTest.java" />
         <option value="$PROJECT_DIR$/src/test/ObjectTest.java" />
+        <option value="$PROJECT_DIR$/src/test/StringsTest.java" />
       </list>
     </option>
   </component>
@@ -129,28 +156,37 @@
             <path>
               <item name="GuavaTest" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="guava-18.0.jar" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="GuavaTest" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
-              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="guava-18.0.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="GuavaTest" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
-              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="guava-18.0.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="google" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="GuavaTest" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
-              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="lang" type="462c0819:PsiDirectoryNode" />
+              <item name="guava-18.0.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="google" type="462c0819:PsiDirectoryNode" />
+              <item name="common" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="GuavaTest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="guava-18.0.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="google" type="462c0819:PsiDirectoryNode" />
+              <item name="common" type="462c0819:PsiDirectoryNode" />
+              <item name="base" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="GuavaTest" type="b2602c69:ProjectViewProjectNode" />
@@ -188,22 +224,11 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.ObjectTest">
-    <configuration name="ObjectTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="test.ObjectTest" />
-      <module name="GuavaTest" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-    </configuration>
+  <component name="RunManager" selected="JUnit.StringsTest.test2">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
-    <configuration name="PreconditionsTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="StringsTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="GuavaTest" />
       <extension name="coverage">
         <pattern>
@@ -214,7 +239,30 @@
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="test" />
-      <option name="MAIN_CLASS_NAME" value="test.PreconditionsTest" />
+      <option name="MAIN_CLASS_NAME" value="test.StringsTest" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="StringsTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="GuavaTest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="test" />
+      <option name="MAIN_CLASS_NAME" value="test.StringsTest" />
       <option name="METHOD_NAME" value="test" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -226,7 +274,7 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="PreconditionsTest.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="StringsTest.test0" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="GuavaTest" />
       <extension name="coverage">
         <pattern>
@@ -237,7 +285,30 @@
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="test" />
-      <option name="MAIN_CLASS_NAME" value="test.PreconditionsTest" />
+      <option name="MAIN_CLASS_NAME" value="test.StringsTest" />
+      <option name="METHOD_NAME" value="test0" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="StringsTest.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="GuavaTest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="test" />
+      <option name="MAIN_CLASS_NAME" value="test.StringsTest" />
       <option name="METHOD_NAME" value="test1" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -249,7 +320,7 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="SplitterTest.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="StringsTest.test2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="GuavaTest" />
       <extension name="coverage">
         <pattern>
@@ -260,30 +331,7 @@
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="test" />
-      <option name="MAIN_CLASS_NAME" value="test.SplitterTest" />
-      <option name="METHOD_NAME" value="test1" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
-    </configuration>
-    <configuration name="SplitterTest.test2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="GuavaTest" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="test" />
-      <option name="MAIN_CLASS_NAME" value="test.SplitterTest" />
+      <option name="MAIN_CLASS_NAME" value="test.StringsTest" />
       <option name="METHOD_NAME" value="test2" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -334,19 +382,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="JUnit.SplitterTest.test1" />
-      <item itemvalue="JUnit.SplitterTest.test2" />
-      <item itemvalue="JUnit.PreconditionsTest.test" />
-      <item itemvalue="JUnit.PreconditionsTest.test1" />
-      <item itemvalue="Application.ObjectTest" />
+      <item itemvalue="JUnit.StringsTest.test" />
+      <item itemvalue="JUnit.StringsTest.test1" />
+      <item itemvalue="JUnit.StringsTest.test0" />
+      <item itemvalue="JUnit.StringsTest.test2" />
+      <item itemvalue="JUnit.StringsTest" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ObjectTest" />
-        <item itemvalue="JUnit.PreconditionsTest.test" />
-        <item itemvalue="JUnit.PreconditionsTest.test1" />
-        <item itemvalue="JUnit.SplitterTest.test2" />
-        <item itemvalue="JUnit.SplitterTest.test1" />
+        <item itemvalue="JUnit.StringsTest.test2" />
+        <item itemvalue="JUnit.StringsTest" />
+        <item itemvalue="JUnit.StringsTest.test0" />
+        <item itemvalue="JUnit.StringsTest.test1" />
+        <item itemvalue="JUnit.StringsTest.test" />
       </list>
     </recent_temporary>
   </component>
@@ -367,44 +415,44 @@
       <workItem from="1559207035891" duration="2891000" />
       <workItem from="1559398633070" duration="4559000" />
       <workItem from="1559487860359" duration="3498000" />
-      <workItem from="1560338682247" duration="2135000" />
+      <workItem from="1560338682247" duration="6231000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="PreconditionsTest_test - 2019.06.02 at 23h 31m 15s.xml">
-      <configuration name="PreconditionsTest.test" configurationId="JUnit" />
+    <history-entry file="StringsTest_test1 - 2019.06.12 at 20h 37m 14s.xml">
+      <configuration name="StringsTest.test1" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="PreconditionsTest_test - 2019.06.02 at 23h 32m 15s.xml">
-      <configuration name="PreconditionsTest.test" configurationId="JUnit" />
+    <history-entry file="StringsTest_test0 - 2019.06.12 at 20h 39m 49s.xml">
+      <configuration name="StringsTest.test0" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="PreconditionsTest_test - 2019.06.02 at 23h 39m 57s.xml">
-      <configuration name="PreconditionsTest.test" configurationId="JUnit" />
+    <history-entry file="StringsTest - 2019.06.12 at 20h 54m 10s.xml">
+      <configuration name="StringsTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="PreconditionsTest_test1 - 2019.06.02 at 23h 50m 52s.xml">
-      <configuration name="PreconditionsTest.test1" configurationId="JUnit" />
+    <history-entry file="StringsTest_test2 - 2019.06.12 at 20h 54m 14s.xml">
+      <configuration name="StringsTest.test2" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="PreconditionsTest_test1 - 2019.06.02 at 23h 51m 02s.xml">
-      <configuration name="PreconditionsTest.test1" configurationId="JUnit" />
+    <history-entry file="StringsTest_test2 - 2019.06.12 at 20h 59m 20s.xml">
+      <configuration name="StringsTest.test2" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="PreconditionsTest_test1 - 2019.06.02 at 23h 51m 46s.xml">
-      <configuration name="PreconditionsTest.test1" configurationId="JUnit" />
+    <history-entry file="StringsTest_test2 - 2019.06.12 at 21h 02m 42s.xml">
+      <configuration name="StringsTest.test2" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="PreconditionsTest_test1 - 2019.06.02 at 23h 52m 40s.xml">
-      <configuration name="PreconditionsTest.test1" configurationId="JUnit" />
+    <history-entry file="StringsTest_test2 - 2019.06.12 at 21h 02m 53s.xml">
+      <configuration name="StringsTest.test2" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="PreconditionsTest_test1 - 2019.06.02 at 23h 54m 05s.xml">
-      <configuration name="PreconditionsTest.test1" configurationId="JUnit" />
+    <history-entry file="StringsTest_test2 - 2019.06.12 at 21h 04m 43s.xml">
+      <configuration name="StringsTest.test2" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="PreconditionsTest_test1 - 2019.06.02 at 23h 55m 18s.xml">
-      <configuration name="PreconditionsTest.test1" configurationId="JUnit" />
+    <history-entry file="StringsTest_test2 - 2019.06.12 at 21h 05m 49s.xml">
+      <configuration name="StringsTest.test2" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="PreconditionsTest_test - 2019.06.02 at 23h 56m 08s.xml">
-      <configuration name="PreconditionsTest.test" configurationId="JUnit" />
+    <history-entry file="StringsTest_test2 - 2019.06.12 at 21h 06m 33s.xml">
+      <configuration name="StringsTest.test2" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="21953000" />
+    <option name="totallyTimeSpent" value="26049000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -412,16 +460,16 @@
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Messages" order="7" weight="0.32969034" />
+      <window_info anchor="bottom" id="Messages" order="7" weight="0.32838285" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
-      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50075644" side_tool="true" weight="0.37128714" />
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.0" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49924356" visible="true" weight="0.1650165" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.16831683" />
+      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49924356" weight="0.36963695" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.27760968" />
@@ -448,7 +496,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="1" />
+      <option name="time" value="2" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
@@ -685,12 +733,29 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/ObjectTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="518">
+        <state relative-caret-position="283">
           <caret line="59" column="45" lean-forward="true" selection-start-line="59" selection-start-column="45" selection-end-line="59" selection-end-column="45" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#922#923#0" expanded="true" />
             <element signature="e#1008#1009#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Guava/guava-18.0.jar!/com/google/common/base/CharMatcher.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="128">
+          <caret line="18" column="33" selection-start-line="18" selection-start-column="22" selection-end-line="18" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/StringsTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="319">
+          <caret line="46" column="117" selection-start-line="46" selection-start-column="117" selection-end-line="46" selection-end-column="117" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
