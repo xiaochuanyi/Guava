@@ -1,6 +1,7 @@
 package test.io;
 
 import com.google.common.base.*;
+import com.google.common.collect.*;
 import com.google.common.hash.*;
 import com.google.common.io.*;
 import org.junit.*;
@@ -39,6 +40,11 @@ public class FilesTest {
         String read = Files.asCharSource(new File(sources),Charsets.UTF_8).read();
         System.out.println(read);
     }
+
+    /**
+     * 获取文件sha值
+     * @throws IOException
+     */
     @Test
     public void test2() throws IOException {
         File file = new File(sources);
@@ -46,11 +52,63 @@ public class FilesTest {
         HashCode hash = Files.asByteSource(file).hash(Hashing.sha256());
         System.out.println(hash);
     }
+
+    /**
+     * 往文件里写入内容
+     * @throws IOException
+     */
     @Test
     public void test3() throws IOException {
         String file = "C:\\课用软件\\workplace\\GuavaTest\\src\\test\\io\\resources\\write.txt";
         File file1 = new File(file);
         String content = "hello my baby";
         Files.asCharSink(file1,Charsets.UTF_8).write(content);
+        file1.deleteOnExit();
+    }
+
+    /**
+     * 往文件里追加内容
+     * @throws IOException
+     */
+    @Test
+    public void test4() throws IOException {
+        String file = "C:\\课用软件\\workplace\\GuavaTest\\src\\test\\io\\resources\\write.txt";
+        File file1 = new File(file);
+        String content = "thank you";
+        CharSink charSink = Files.asCharSink(file1, Charsets.UTF_8, FileWriteMode.APPEND);
+        charSink.write(content);
+        //退出时删除文件
+        file1.deleteOnExit();
+    }
+
+    /**
+     * 创建一个文件
+     * @throws IOException
+     */
+    @Test
+    public void test5() throws IOException {
+        String file = "C:\\课用软件\\workplace\\GuavaTest\\src\\test\\io\\resources\\test.txt";
+        File touchFile = new File(file);
+        Files.touch(touchFile);
+        //退出时删除文件
+        touchFile.deleteOnExit();
+    }
+
+    /**
+     * 获取根目录下的所有文件
+     */
+    @Test
+    public void test6(){
+        String path = "C:\\课用软件\\workplace\\GuavaTest\\src";
+        File root = new File(path);
+        //顺序获取根目录下的所有文件，包括目录
+        FluentIterable<File> files = Files.fileTreeTraverser().preOrderTraversal(root);
+         files.forEach(System.out :: println);
+        //顺序获取根目录下的文件，不包括文件夹
+        FluentIterable<File> files1 = Files.fileTreeTraverser().preOrderTraversal(root).filter(File::isFile);
+        files1.forEach(System.out :: println);
+        //逆序获取根目录下的所有文件，包括目录
+        FluentIterable<File> files2 = Files.fileTreeTraverser().postOrderTraversal(root);
+        files2.forEach(System.out :: println);
     }
 }
