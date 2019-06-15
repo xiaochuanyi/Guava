@@ -1,6 +1,8 @@
 package test.io;
 
 import com.google.common.base.*;
+import com.google.common.collect.*;
+import com.google.common.hash.*;
 import com.google.common.io.*;
 import org.junit.*;
 
@@ -34,5 +36,12 @@ public class FilesTest {
         List<String> strings = Files.readLines(new File(sources), Charsets.UTF_8);
         String result = Joiner.on("\n").join(strings);
         System.out.println(result);
+    }
+    @Test
+    public void test2() throws IOException {
+        File file = new File(sources);
+        //获取file的sha256值
+        HashCode hash = Files.asByteSource(file).hash(Hashing.sha256());
+        System.out.println(hash);
     }
 }
