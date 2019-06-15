@@ -1,7 +1,6 @@
 package test.io;
 
 import com.google.common.base.*;
-import com.google.common.collect.*;
 import com.google.common.hash.*;
 import com.google.common.io.*;
 import org.junit.*;
@@ -32,10 +31,13 @@ public class FilesTest {
     }
     @Test
     public void test1() throws IOException {
-        //把文件的内容读取出来
+        //把文件的内容读取出来，读取的内容为一个list集合，一行为list集合中的一个对象
         List<String> strings = Files.readLines(new File(sources), Charsets.UTF_8);
         String result = Joiner.on("\n").join(strings);
         System.out.println(result);
+        //读取文件,读取到的内容为一个字符串
+        String read = Files.asCharSource(new File(sources),Charsets.UTF_8).read();
+        System.out.println(read);
     }
     @Test
     public void test2() throws IOException {
@@ -43,5 +45,12 @@ public class FilesTest {
         //获取file的sha256值
         HashCode hash = Files.asByteSource(file).hash(Hashing.sha256());
         System.out.println(hash);
+    }
+    @Test
+    public void test3() throws IOException {
+        String file = "C:\\课用软件\\workplace\\GuavaTest\\src\\test\\io\\resources\\write.txt";
+        File file1 = new File(file);
+        String content = "hello my baby";
+        Files.asCharSink(file1,Charsets.UTF_8).write(content);
     }
 }
