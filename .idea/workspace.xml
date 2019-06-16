@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="419cb412-ff15-4c9e-8c54-da5c6cf17dab" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/collections/SetsTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/collections/MapTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -15,11 +15,23 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="SetsTest.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="SetsTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/collections/SetsTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="25" column="19" selection-start-line="25" selection-start-column="19" selection-end-line="25" selection-end-column="19" />
+            <state relative-caret-position="378">
+              <caret line="34" lean-forward="true" selection-start-line="34" selection-end-line="34" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MapTest.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/collections/MapTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="264">
+              <caret line="28" column="67" selection-start-line="28" selection-start-column="67" selection-end-line="28" selection-end-column="67" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -63,6 +75,7 @@
         <option value="$PROJECT_DIR$/src/test/collections/FluentIterableTest.java" />
         <option value="$PROJECT_DIR$/src/test/collections/ListTest.java" />
         <option value="$PROJECT_DIR$/src/test/collections/SetsTest.java" />
+        <option value="$PROJECT_DIR$/src/test/collections/MapTest.java" />
       </list>
     </option>
   </component>
@@ -197,11 +210,11 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.SetsTest.test1">
+  <component name="RunManager" selected="JUnit.MapTest.test1">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
-    <configuration name="ListTest.test2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="MapTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="GuavaTest" />
       <extension name="coverage">
         <pattern>
@@ -212,8 +225,8 @@
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="test.collections" />
-      <option name="MAIN_CLASS_NAME" value="test.collections.ListTest" />
-      <option name="METHOD_NAME" value="test2" />
+      <option name="MAIN_CLASS_NAME" value="test.collections.MapTest" />
+      <option name="METHOD_NAME" value="test" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -224,7 +237,7 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="ListTest.test3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="MapTest.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="GuavaTest" />
       <extension name="coverage">
         <pattern>
@@ -235,8 +248,8 @@
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="test.collections" />
-      <option name="MAIN_CLASS_NAME" value="test.collections.ListTest" />
-      <option name="METHOD_NAME" value="test3" />
+      <option name="MAIN_CLASS_NAME" value="test.collections.MapTest" />
+      <option name="METHOD_NAME" value="test1" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -355,19 +368,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="JUnit.ListTest.test2" />
-      <item itemvalue="JUnit.ListTest.test3" />
       <item itemvalue="JUnit.SetsTest" />
       <item itemvalue="JUnit.SetsTest.test" />
       <item itemvalue="JUnit.SetsTest.test1" />
+      <item itemvalue="JUnit.MapTest.test" />
+      <item itemvalue="JUnit.MapTest.test1" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.MapTest.test1" />
+        <item itemvalue="JUnit.MapTest.test" />
         <item itemvalue="JUnit.SetsTest.test1" />
         <item itemvalue="JUnit.SetsTest.test" />
         <item itemvalue="JUnit.SetsTest" />
-        <item itemvalue="JUnit.ListTest.test3" />
-        <item itemvalue="JUnit.ListTest.test2" />
       </list>
     </recent_temporary>
   </component>
@@ -398,20 +411,11 @@
       <workItem from="1560603835616" duration="146000" />
       <workItem from="1560605909892" duration="611000" />
       <workItem from="1560670725469" duration="6577000" />
-      <workItem from="1560694166215" duration="4899000" />
+      <workItem from="1560694166215" duration="5919000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="ListTest_test - 2019.06.16 at 22h 22m 25s.xml">
-      <configuration name="ListTest.test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ListTest_test - 2019.06.16 at 22h 31m 04s.xml">
-      <configuration name="ListTest.test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ListTest_test - 2019.06.16 at 22h 31m 15s.xml">
-      <configuration name="ListTest.test" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="ListTest - 2019.06.16 at 22h 32m 42s.xml">
       <configuration name="ListTest" configurationId="JUnit" />
     </history-entry>
@@ -433,9 +437,18 @@
     <history-entry file="SetsTest_test1 - 2019.06.16 at 23h 28m 59s.xml">
       <configuration name="SetsTest.test1" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="MapTest_test - 2019.06.16 at 23h 37m 10s.xml">
+      <configuration name="MapTest.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MapTest_test - 2019.06.16 at 23h 41m 31s.xml">
+      <configuration name="MapTest.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MapTest_test1 - 2019.06.16 at 23h 45m 41s.xml">
+      <configuration name="MapTest.test1" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="60929000" />
+    <option name="totallyTimeSpent" value="61949000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -461,7 +474,7 @@
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.4977307" visible="true" weight="0.34158415" />
-      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49924356" weight="0.23762377" />
+      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49924356" weight="0.12541254" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.3237519" />
@@ -492,13 +505,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_121/src.zip!/java/util/ArrayList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2831">
-          <caret line="149" column="11" selection-start-line="149" selection-start-column="11" selection-end-line="149" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/StringsTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="874">
@@ -809,13 +815,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://C:/Guava/guava-18.0.jar!/com/google/common/base/Function.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="13" column="6" selection-start-line="13" selection-start-column="6" selection-end-line="13" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/collections/ListTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="191">
@@ -828,8 +827,25 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/collections/SetsTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="25" column="19" selection-start-line="25" selection-start-column="19" selection-end-line="25" selection-end-column="19" />
+        <state relative-caret-position="378">
+          <caret line="34" lean-forward="true" selection-start-line="34" selection-end-line="34" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Guava/guava-18.0.jar!/com/google/common/base/Function.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="13" column="6" selection-start-line="13" selection-start-column="6" selection-end-line="13" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/collections/MapTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="28" column="67" selection-start-line="28" selection-start-column="67" selection-end-line="28" selection-end-column="67" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
