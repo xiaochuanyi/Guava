@@ -97,7 +97,7 @@ public class FluentIterableTest {
          ArrayList<String> list = Lists.newArrayList("xcy", "guava", "test");
          FluentIterable<String> from = FluentIterable.from(list);
          List<Integer> list1 = Lists.newArrayList(1,2);
-         //把list中的每一个元素替换Wielist1
+         //把list中的每一个元素替换为list1
          FluentIterable<Integer> strings = from.transformAndConcat(e -> list1);
          strings.forEach(System.out ::println);
      }
