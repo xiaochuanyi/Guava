@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="419cb412-ff15-4c9e-8c54-da5c6cf17dab" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/collections/ImmutableCollectionsTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/collections/OrderingTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -15,14 +15,13 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="ImmutableCollectionsTest.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/collections/ImmutableCollectionsTest.java">
+      <file leaf-file-name="OrderingTest.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/collections/OrderingTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="104">
-              <caret line="20" column="24" selection-start-line="20" selection-start-column="24" selection-end-line="20" selection-end-column="24" />
+            <state relative-caret-position="300">
+              <caret line="22" column="59" selection-start-line="22" selection-start-column="59" selection-end-line="22" selection-end-column="59" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#574#583#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -70,6 +69,7 @@
         <option value="$PROJECT_DIR$/src/test/collections/TableTest.java" />
         <option value="$PROJECT_DIR$/src/test/collections/RangeTest.java" />
         <option value="$PROJECT_DIR$/src/test/collections/ImmutableCollectionsTest.java" />
+        <option value="$PROJECT_DIR$/src/test/collections/OrderingTest.java" />
       </list>
     </option>
   </component>
@@ -368,14 +368,11 @@
       <workItem from="1560670725469" duration="6577000" />
       <workItem from="1560694166215" duration="7615000" />
       <workItem from="1560738035113" duration="3543000" />
-      <workItem from="1560749663377" duration="984000" />
+      <workItem from="1560749663377" duration="1952000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="RangeTest_test - 2019.06.17 at 10h 48m 47s.xml">
-      <configuration name="RangeTest.test" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="RangeTest_test - 2019.06.17 at 10h 49m 40s.xml">
       <configuration name="RangeTest.test" configurationId="JUnit" />
     </history-entry>
@@ -403,9 +400,12 @@
     <history-entry file="ImmutableCollectionsTest_test - 2019.06.17 at 13h 50m 45s.xml">
       <configuration name="ImmutableCollectionsTest.test" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="ImmutableCollectionsTest_test - 2019.06.17 at 13h 55m 53s.xml">
+      <configuration name="ImmutableCollectionsTest.test" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="68172000" />
+    <option name="totallyTimeSpent" value="69140000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -430,7 +430,7 @@
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.4977307" visible="true" weight="0.54950494" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.4977307" visible="true" weight="0.36633664" />
       <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49924356" weight="0.45544556" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
@@ -462,13 +462,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/test/SplitterTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1102">
-          <caret line="61" column="40" selection-start-line="61" selection-start-column="40" selection-end-line="61" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://C:/Guava/guava-18.0.jar!/com/google/common/base/Splitter.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1026">
@@ -780,11 +773,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/collections/ImmutableCollectionsTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="104">
-          <caret line="20" column="24" selection-start-line="20" selection-start-column="24" selection-end-line="20" selection-end-column="24" />
+        <state relative-caret-position="249">
+          <caret line="25" column="5" lean-forward="true" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#574#583#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/collections/OrderingTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="22" column="59" selection-start-line="22" selection-start-column="59" selection-end-line="22" selection-end-column="59" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
