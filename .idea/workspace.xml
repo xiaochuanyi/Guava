@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="419cb412-ff15-4c9e-8c54-da5c6cf17dab" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/collections/MapTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/collections/BiMapTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/collections/MultiMapTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -27,11 +28,35 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MapTest.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="MapTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/collections/MapTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="264">
-              <caret line="28" column="67" selection-start-line="28" selection-start-column="67" selection-end-line="28" selection-end-column="67" />
+            <state relative-caret-position="369">
+              <caret line="27" column="56" lean-forward="true" selection-start-line="27" selection-start-column="56" selection-end-line="27" selection-end-column="56" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MultiMapTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/collections/MultiMapTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="11" column="3" selection-start-line="11" selection-start-column="3" selection-end-line="20" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BiMapTest.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/collections/BiMapTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="369">
+              <caret line="23" column="8" selection-start-line="23" selection-start-column="8" selection-end-line="23" selection-end-column="8" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -76,6 +101,8 @@
         <option value="$PROJECT_DIR$/src/test/collections/ListTest.java" />
         <option value="$PROJECT_DIR$/src/test/collections/SetsTest.java" />
         <option value="$PROJECT_DIR$/src/test/collections/MapTest.java" />
+        <option value="$PROJECT_DIR$/src/test/collections/MultiMapTest.java" />
+        <option value="$PROJECT_DIR$/src/test/collections/BiMapTest.java" />
       </list>
     </option>
   </component>
@@ -210,9 +237,55 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.MapTest.test1">
+  <component name="RunManager" selected="JUnit.BiMapTest.test1">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+    </configuration>
+    <configuration name="BiMapTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="GuavaTest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.collections.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="test.collections" />
+      <option name="MAIN_CLASS_NAME" value="test.collections.BiMapTest" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="BiMapTest.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="GuavaTest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.collections.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="test.collections" />
+      <option name="MAIN_CLASS_NAME" value="test.collections.BiMapTest" />
+      <option name="METHOD_NAME" value="test1" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
     </configuration>
     <configuration name="MapTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="GuavaTest" />
@@ -260,7 +333,7 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="SetsTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="MultiMapTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="GuavaTest" />
       <extension name="coverage">
         <pattern>
@@ -271,54 +344,8 @@
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="test.collections" />
-      <option name="MAIN_CLASS_NAME" value="test.collections.SetsTest" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
-    </configuration>
-    <configuration name="SetsTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="GuavaTest" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="test.collections.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="test.collections" />
-      <option name="MAIN_CLASS_NAME" value="test.collections.SetsTest" />
+      <option name="MAIN_CLASS_NAME" value="test.collections.MultiMapTest" />
       <option name="METHOD_NAME" value="test" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
-    </configuration>
-    <configuration name="SetsTest.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="GuavaTest" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="test.collections.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="test.collections" />
-      <option name="MAIN_CLASS_NAME" value="test.collections.SetsTest" />
-      <option name="METHOD_NAME" value="test1" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -368,19 +395,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="JUnit.SetsTest" />
-      <item itemvalue="JUnit.SetsTest.test" />
-      <item itemvalue="JUnit.SetsTest.test1" />
       <item itemvalue="JUnit.MapTest.test" />
       <item itemvalue="JUnit.MapTest.test1" />
+      <item itemvalue="JUnit.MultiMapTest.test" />
+      <item itemvalue="JUnit.BiMapTest.test" />
+      <item itemvalue="JUnit.BiMapTest.test1" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.BiMapTest.test1" />
+        <item itemvalue="JUnit.BiMapTest.test" />
+        <item itemvalue="JUnit.MultiMapTest.test" />
         <item itemvalue="JUnit.MapTest.test1" />
         <item itemvalue="JUnit.MapTest.test" />
-        <item itemvalue="JUnit.SetsTest.test1" />
-        <item itemvalue="JUnit.SetsTest.test" />
-        <item itemvalue="JUnit.SetsTest" />
       </list>
     </recent_temporary>
   </component>
@@ -411,44 +438,44 @@
       <workItem from="1560603835616" duration="146000" />
       <workItem from="1560605909892" duration="611000" />
       <workItem from="1560670725469" duration="6577000" />
-      <workItem from="1560694166215" duration="5919000" />
+      <workItem from="1560694166215" duration="7615000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="ListTest - 2019.06.16 at 22h 32m 42s.xml">
-      <configuration name="ListTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ListTest_test2 - 2019.06.16 at 22h 44m 20s.xml">
-      <configuration name="ListTest.test2" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ListTest_test3 - 2019.06.16 at 22h 58m 53s.xml">
-      <configuration name="ListTest.test3" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="SetsTest - 2019.06.16 at 23h 11m 03s.xml">
-      <configuration name="SetsTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="SetsTest_test - 2019.06.16 at 23h 13m 34s.xml">
-      <configuration name="SetsTest.test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="SetsTest_test - 2019.06.16 at 23h 21m 07s.xml">
-      <configuration name="SetsTest.test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="SetsTest_test1 - 2019.06.16 at 23h 28m 59s.xml">
-      <configuration name="SetsTest.test1" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="MapTest_test - 2019.06.16 at 23h 37m 10s.xml">
-      <configuration name="MapTest.test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="MapTest_test - 2019.06.16 at 23h 41m 31s.xml">
-      <configuration name="MapTest.test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="MapTest_test1 - 2019.06.16 at 23h 45m 41s.xml">
+    <history-entry file="MapTest_test1 - 2019.06.16 at 23h 48m 19s.xml">
       <configuration name="MapTest.test1" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MultiMapTest_test - 2019.06.16 at 23h 55m 20s.xml">
+      <configuration name="MultiMapTest.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MultiMapTest_test - 2019.06.16 at 23h 55m 59s.xml">
+      <configuration name="MultiMapTest.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BiMapTest_test - 2019.06.17 at 00h 08m 45s.xml">
+      <configuration name="BiMapTest.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BiMapTest_test - 2019.06.17 at 00h 08m 48s.xml">
+      <configuration name="BiMapTest.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BiMapTest_test1 - 2019.06.17 at 00h 10m 26s.xml">
+      <configuration name="BiMapTest.test1" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BiMapTest_test1 - 2019.06.17 at 00h 11m 25s.xml">
+      <configuration name="BiMapTest.test1" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BiMapTest_test1 - 2019.06.17 at 00h 14m 12s.xml">
+      <configuration name="BiMapTest.test1" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BiMapTest_test1 - 2019.06.17 at 00h 15m 31s.xml">
+      <configuration name="BiMapTest.test1" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BiMapTest_test1 - 2019.06.17 at 00h 15m 40s.xml">
+      <configuration name="BiMapTest.test1" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="61949000" />
+    <option name="totallyTimeSpent" value="63645000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -473,11 +500,11 @@
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.4977307" visible="true" weight="0.34158415" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4977307" weight="0.24587458" />
       <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49924356" weight="0.12541254" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.3237519" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21633889" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -505,26 +532,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/test/StringsTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="874">
-          <caret line="46" column="117" selection-start-line="46" selection-start-column="117" selection-end-line="46" selection-end-column="117" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/PreconditionsTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="15" column="28" selection-start-line="15" selection-start-column="28" selection-end-line="15" selection-end-column="28" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_121/src.zip!/java/util/ArrayList.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2831">
@@ -844,8 +851,28 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/collections/MapTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="28" column="67" selection-start-line="28" selection-start-column="67" selection-end-line="28" selection-end-column="67" />
+        <state relative-caret-position="369">
+          <caret line="27" column="56" lean-forward="true" selection-start-line="27" selection-start-column="56" selection-end-line="27" selection-end-column="56" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/collections/MultiMapTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="11" column="3" selection-start-line="11" selection-start-column="3" selection-end-line="20" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/collections/BiMapTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="369">
+          <caret line="23" column="8" selection-start-line="23" selection-start-column="8" selection-end-line="23" selection-end-column="8" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
